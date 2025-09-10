@@ -11,6 +11,7 @@ function Stars() {
   const positions = useMemo(() => {
     const pts: number[] = []
     for (let i = 0; i < 2000; i++) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const r = (Math.random() - 0.5) * 10
       const x = (Math.random() - 0.5) * 20
       const y = (Math.random() - 0.5) * 20

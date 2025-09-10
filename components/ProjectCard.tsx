@@ -24,7 +24,7 @@ export default function ProjectCard({ title, subtitle, tags, video }: Props) {
       await el.play().catch(() => {})
     } catch {
       // 兼容前缀（极少数旧浏览器）
-      // @ts-ignore
+      // @ts-expect-error <这里写注释：比如“第三方库缺少类型定义”>
       el.webkitRequestFullscreen?.()
     }
   }

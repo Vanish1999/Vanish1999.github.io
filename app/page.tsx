@@ -71,7 +71,7 @@ export default function Home() {
             title="3DRPG Demo"
             subtitle="UI/UX, Environmental Building, Attacking System, NPC Interface"
             tags={["Unity","C#", "3D"]}
-            video="/3Drpg.mp4"
+            video="/rpg.mp4"
           />
           <ProjectCard
             title="2D Farming Game Demo"
