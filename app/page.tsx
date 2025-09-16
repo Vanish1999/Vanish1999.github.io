@@ -62,6 +62,12 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6 text-center">Featured Projects</h2>
         <div className="grid gap-6 md:grid-cols-2">
           <ProjectCard
+            title="Online MMORPG Demo"
+            subtitle="Client-server architecture"
+            tags={["Unity", "C#", "MMORPG", "3D"]}
+            video="/NetGame.mp4"
+          />
+          <ProjectCard
             title="Tricker Trigger — Turn-based JRPG"
             subtitle="Combat flow, AP/Tension, Animator state machines, team combos."
             tags={["Unity", "C#", "JRPG", "3D"]}
